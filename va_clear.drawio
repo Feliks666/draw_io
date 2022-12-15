@@ -1,1 +1,77 @@
-<mxfile host="app.diagrams.net" modified="2022-12-12T03:27:47.449Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="h4lqAu8lC1z69uCl5wVq" type="github"><diagram id="NJeNDDl0r37zImkdOZXH">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-15T06:00:30.186Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="1MWRlu9wtq2XspCf6j8L" type="github">
+  <diagram id="Afjl5BVPWA9B6We7718j" name="第 1 页">
+    <mxGraphModel dx="1345" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="98ZFpCwD6TXsLbCPE17w-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="98ZFpCwD6TXsLbCPE17w-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="98ZFpCwD6TXsLbCPE17w-1" value="creatDict.py" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="98ZFpCwD6TXsLbCPE17w-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="98ZFpCwD6TXsLbCPE17w-2" target="98ZFpCwD6TXsLbCPE17w-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="98ZFpCwD6TXsLbCPE17w-2" value="longShortMatch.py" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="98ZFpCwD6TXsLbCPE17w-3" value="jieba字典" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="584" y="90" width="176" height="120" as="geometry">
+            <mxRectangle x="584" y="110" width="50" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="98ZFpCwD6TXsLbCPE17w-4" value="index_name.txt: 指数名称字典" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="98ZFpCwD6TXsLbCPE17w-3">
+          <mxGeometry y="30" width="176" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="98ZFpCwD6TXsLbCPE17w-5" value="org_name.txt: 机构名称字典" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="98ZFpCwD6TXsLbCPE17w-3">
+          <mxGeometry y="60" width="176" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="98ZFpCwD6TXsLbCPE17w-6" value="normal.txt: 手工添加词汇字典" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="98ZFpCwD6TXsLbCPE17w-3">
+          <mxGeometry y="90" width="176" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="98ZFpCwD6TXsLbCPE17w-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="98ZFpCwD6TXsLbCPE17w-8" target="98ZFpCwD6TXsLbCPE17w-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="98ZFpCwD6TXsLbCPE17w-8" value="full2half" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="675" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="98ZFpCwD6TXsLbCPE17w-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="98ZFpCwD6TXsLbCPE17w-11" target="98ZFpCwD6TXsLbCPE17w-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="98ZFpCwD6TXsLbCPE17w-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="98ZFpCwD6TXsLbCPE17w-11" target="98ZFpCwD6TXsLbCPE17w-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="98ZFpCwD6TXsLbCPE17w-11" value="将数字、字母等由全角转成半角" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="855" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="98ZFpCwD6TXsLbCPE17w-13" value="将全角空格转成半角空格" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1055" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="98ZFpCwD6TXsLbCPE17w-15" value="将全角字符转成半角字符" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1055" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="98ZFpCwD6TXsLbCPE17w-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="98ZFpCwD6TXsLbCPE17w-18" target="98ZFpCwD6TXsLbCPE17w-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="98ZFpCwD6TXsLbCPE17w-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="98ZFpCwD6TXsLbCPE17w-18" target="98ZFpCwD6TXsLbCPE17w-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="98ZFpCwD6TXsLbCPE17w-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="98ZFpCwD6TXsLbCPE17w-18" target="98ZFpCwD6TXsLbCPE17w-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="98ZFpCwD6TXsLbCPE17w-18" value="modify_va_fund_name" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="465" y="360" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="98ZFpCwD6TXsLbCPE17w-22" value="使用正则表达式去除特殊符号" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="675" y="360" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="98ZFpCwD6TXsLbCPE17w-24" value="&lt;pre style=&quot;font-family: &amp;quot;苹方 粗体&amp;quot;; font-size: 9.8pt; line-height: 30%;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;去除名称中包含的日期&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;, monospace;&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;苹方 粗体&amp;quot;; font-size: 9.8pt; line-height: 30%;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;如&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;, monospace;&quot;&gt;&#39;&lt;/span&gt;红珊瑚沪深&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;, monospace;&quot;&gt;300&lt;/span&gt;增强私募证券投资基金&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;, monospace;&quot;&gt;2022&lt;/span&gt;年&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;, monospace;&quot;&gt;06&lt;/span&gt;月&lt;span style=&quot;font-family: &amp;quot;Fira Code Retina&amp;quot;, monospace;&quot;&gt;28&lt;/span&gt;日估值报表四级&lt;/span&gt;&lt;/pre&gt;" style="rounded=1;html=1;gradientColor=none;fontColor=#000000;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="675" y="450" width="455" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
